@@ -1,6 +1,6 @@
 # SkyCast-forecast
 
-![](https://i.gifer.com/origin/36/36eec1afdf73d5af476ae8f9c39a736c_w200.gif)
+![](https://media3.giphy.com/media/Bu3XwQNuf9g6tXwvo5/giphy.gif?cid=6c09b952hcpdowrit3693gvr0hn8axiaql36g16wz21ys8vz&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=s)
 
 > SkyCast is a simple and elegant weather application that allows users to check the current weather conditions for any city. Utilizing the SheCodes weather API, SkyCast provides real-time weather updates, including temperature, humidity, wind speed, and more.
 > The application is designed to be user-friendly, with a clean and intuitive interface that makes it easy
