@@ -87,7 +87,7 @@ function displayForecast(response) {
   let forecastHtml = "";
   //Use the loop to create html for each day
   response.data.daily.forEach(function (day, index) {
-    if (index < 6) {
+    if (index < 5) {
       forecastHtml =
         forecastHtml +
         `
