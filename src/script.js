@@ -26,6 +26,8 @@ function refreshWeather(response) {
   windSpeedElement.innerHTML = windSpeed;
   temperatureElement.innerHTML = Math.round(temperature);
   iconElement.innerHTML = `<img src="${response.data.condition.icon_url}"class="weather-app-icon" />`;
+
+  getForecast(response.data.city);
 }
 
 function formatDate(date) {
@@ -65,8 +67,17 @@ function handelSearchSubmit(event) {
   searchCity(searchInput.value);
 }
 
+//Get the forecast data
+function getForecast(city) {
+  let apiKey = "6b8a7398o06094tf908737c5b44dce83";
+  let apiUrl = `https://api.shecodes.io/weather/v1/forecast?query=${city}&key=${apiKey}&units=metric`;
+  // console.log(apiUrl);
+  axios(apiUrl).then(displayForecast);
+}
+
 //Build the forecast
-function displayForecast() {
+function displayForecast(response) {
+  console.log(response.data);
   let days = ["Mon", "Tus", "Wed", "Thu", "Fri", "Sat"];
   let forecastHtml = "";
   //Use the loop to create html for each day
@@ -93,4 +104,3 @@ function displayForecast() {
 let searchFormElement = document.querySelector("#search-form");
 searchFormElement.addEventListener("submit", handelSearchSubmit);
 searchCity("Ghent");
-displayForecast();
