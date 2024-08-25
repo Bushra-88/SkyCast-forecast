@@ -11,6 +11,7 @@
 - **Detailed Display**: Clear representation of temperature, humidity, wind speed, and weather conditions.
 - **Beautiful Icons**: Visual representation of current weather conditions using icons.
 - **Real-time Updates**: Update weather information with a simple search.
+- **Forecast**: Get the 5-day weather forecast for any city, including temperature, humidity, and weather conditions.
 
 ## Technologies Used
 
