@@ -28,7 +28,7 @@
 
 ### Access Online
 
-You can also access the SkyCast Weather App online through this [Netlify link](https://skycast-application.netlify.app/).
+You can also access the SkyCast Weather App online through this [Netlify link](https://skycast-forecast.netlify.app/).
 
 ## Screenshot
 
